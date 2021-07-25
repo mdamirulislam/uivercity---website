@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<title>Document</title>
+</head>
+<body>
+<section class='sub-header'>
+    <nav>
+        <a href=""><img src="images/logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="cours.html">COURSE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>About Us</h1>
+
+</section>
+
+
+<section class='about-us'>
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem perspiciatis numquam recusandae id neque aperiam facere sit consequuntur laboriosam rem laborum pariatur ab corrupti, explicabo ea excepturi. Iste suscipit, architecto corporis distinctio ducimus adipisci, ut minus, minima aliquam eius dolorum accusamus aperiam. Sint labore qui est reiciendis excepturi corporis quisquam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis provident natus temporibus hic at similique consequatur earum  </p>
+            <a href="" class='hero-btn red-btn'>EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+
+
+<section class='footer'>
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor a commodi itaque excepturi quaerat aliquam eius perspiciatis! Eaque, iure illo. <br> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+    </div> <br> 
+    <br>
+    <p>copyright <i class="fal fa-heart foot"></i> amirul islam</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+const navLinks = document.getElementById('navLinks');
+
+const  showMenu = () => {
+navLinks.style.right= '0';
+}
+const  hideMenu = () => {
+navLinks.style.right= '-200px';
+}
+
+</script>
+
+    
+</body>
+</html>
